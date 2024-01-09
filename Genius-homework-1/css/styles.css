@@ -1,0 +1,230 @@
+/* play-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/play-v19-latin-regular.woff2') format('woff2');
+}
+/* play-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/play-v19-latin-700.woff2') format('woff2');
+}
+
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2');
+}
+/* roboto-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/roboto-v30-latin-700.woff2') format('woff2');
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--color-band-dark);
+  line-height: 1.1;
+}
+
+:root {
+  --color-brand-lite: #2b7fff;
+  --color-brand-dark: #011c44;
+  --color-text-grey: #4a4a4a;
+  --color-text-white: #ffffff;
+}
+
+/* Main-title */
+.upper-title {
+  font-size: 18px;
+  font-weight: 400;
+}
+.main-title {
+  color: var(--color-brand-lite);
+  font-family: 'Play', sans-serif;
+  font-weight: 700;
+  font-size: 128px;
+  text-align: left;
+  line-height: 0.8;
+  text-transform: capitalize;
+}
+/* link */
+.link {
+  list-style-type: none;
+  color: var(--color-text-dark);
+  text-decoration: none;
+}
+.link:hover {
+  color: var(--color-brand-lite);
+  font-weight: 700;
+}
+.button {
+  color: var(--color-text-white);
+  background-color: var(--color-brand-lite);
+  border-color: var(--color-brand-lite);
+  font-weight: 700;
+}
+.button:hover {
+  background-color: transparent;
+  color: var(--color-brand-dark);
+}
+/* Consultation */
+.consultation {
+  color: var(--color-text-grey);
+  font-size: 12px;
+  line-height: 1.5;
+}
+/* Familiarization-section */
+.familiarization-title {
+  font-size: 64px;
+  font-weight: 700;
+}
+.familiarization-title span {
+  color: var(--color-brand-lite);
+  font-size: 64px;
+  font-weight: 700;
+}
+.familiarization-info {
+  font-size: 22px;
+  line-height: 1.7;
+}
+.familiarization-info2 {
+  font-size: 22px;
+  line-height: 1.7;
+}
+.familiarization-info2 span {
+  color: var(--color-brand-lite);
+  font-size: 22px;
+  line-height: 1.7;
+}
+/* information-section */
+.information-title {
+  font-family: 'Play', sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  text-align: center;
+}
+.information-title span {
+  font-size: 64px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--color-brand-lite);
+}
+.information {
+  line-height: 1.3;
+  color: #000;
+}
+.information2 {
+  line-height: 1.3;
+  color: #000;
+}
+.information3 {
+  color: #000;
+  line-height: 1.3;
+}
+/* Procedures-setion */
+.procedures-title {
+  font-family: 'Play', sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+}
+.procedures-title span {
+  color: var(--color-brand-lite);
+  font-family: 'Play', sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+}
+.procedures-card {
+  color: var(--color-text-white);
+  font-size: 22px;
+  text-align: center;
+  line-height: 1.1;
+}
+.procedures-card2 {
+  color: var(--color-text-white);
+  font-size: 22px;
+  text-align: center;
+  line-height: 1.1;
+}
+.procedures-card3 {
+  color: var(--color-text-white);
+  font-size: 22px;
+  text-align: center;
+  line-height: 1.1;
+}
+/* contact-section */
+.contact-title {
+  font-family: 'Play', sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  text-align: center;
+}
+.contact-title span {
+  color: var(--color-brand-lite);
+}
+.contact-window {
+  color: var(--color-text-white);
+  font-size: 22px;
+  font-weight: 700;
+}
+.contact-window span {
+  color: var(--color-brand-lite);
+}
+address {
+  color: var(--color-text-white);
+}
+.Privacy-Policy {
+  line-height: 1.5;
+  font-size: 12px;
+  font-weight: 400;
+}
+.Privacy-Policy-link {
+  line-height: 1.5;
+  color: var(--color-text-grey);
+}
+.Privacy-Policy2 {
+  font-size: 16px;
+  font-style: normal;
+  text-decoration: none;
+  color: var(--color-text-white);
+}
+.Privacy-Policy2:hover {
+  color: var(--color-brand-lite);
+}
+.Privacy-Policy3 {
+  color: var(--color-text-grey);
+  font-size: 13px;
+  font-style: normal;
+}
+/* Footer */
+.footer_link {
+  text-decoration: none;
+  color: var(--color-text-white);
+  font-size: 16px;
+}
+.footer_link:hover {
+  color: var(--color-brand-lite);
+  font-size: 16px;
+}
+.address {
+  text-decoration: none;
+  color: var(--color-text-white);
+  font-size: 16px;
+  line-height: normal;
+  font-style: normal;
+}
+.address:hover {
+  color: var(--color-brand-lite);
+}
